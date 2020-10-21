@@ -5,6 +5,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Counter from '../../components/counter'
 
+// renders div.remove() at the end of each test unnecessary
 beforeEach(() => {
   document.body.innerHTML = ''
 })
